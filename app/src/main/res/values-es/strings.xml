@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">SISROB</string>
+
+    <string name="navigation_drawer_open">Abir Navegación </string>
+    <string name="navigation_drawer_close">Cerrar Navegación</string>
+    <string name="action_settings"></string>
+
+    //Motores
+    <string name="motores">MOTORES</string>
+
+    <string name="circuitos">Circuitos</string>
+    <string name="datosdecomponentes">Datos de Componentes</string>
+    <string name="ubicacion">Hubicación de Componentes</string>
+    <string name="calibraciones">Calibraciones</string>
+
+
+    //Electrico
+    <string name="electrico">ELECTRICO</string>
+
+    <string name="codigodefallas">Codigo de Fallas</string>
+    <string name="posiblesfallas">Posibles Fallas</string>
+    <string name="pinecuecm">Pin ECU/ECM</string>
+    <string name="planoselectricos">Planos Electricos</string>
+    <string name="ubicaciondesensores">Ubicación de Sensores</string>
+
+    //Hidraulico
+    <string name="hidraulico">HIDRAULICO</string>
+
+    <string name="conectores">Conectores</string>
+    <string name="bombashidraulicas">Bombas Hidraulicas</string>
+    <string name="dimencionesdemangueras">Dimenciones de Mangueras</string>
+    <string name="planoshidraulicos">Planos Hidraulicos</string>
+    <string name="precionesdetrabajo">Preciones de Trabajo</string>
+    <string name="ubicacionesdecomponentes">Ubicaciones de Componentes</string>
+
+    //Control
+    <string name="control">CONTROL</string>
+
+    <string name="calibraciondeaditivo">Calibración de Aditivo</string>
+    <string name="descripciondeequipo">Descripción de Equipo</string>
+    <string name="diagramadeconexiones">Diagrama de Conexiones</string>
+    <string name="programaciondecontrol">Programación de Control</string>
+    <string name="toleranciadevoltajes">Tolerancia de Voltajes</string>
+    <string name="operacionconarduino">Operacion con Arduino</string>
+
+    //Manuales
+    <string name="manuales">MANUALES</string>
+    <string name="motoresmanuales">Motores</string>
+    <string name="mantenimiento">Mantenimiento</string>
+    <string name="operaciones">Operaciones</string>
+
+    //Diccionario
+    <string name="diccionario">DICCIONARIO</string>
+    <string name="inglestecnico">Ingles Tecnico</string>
+    <string name="componentes">Componentes</string>
+
+    //Codigo SAP
+    <string name="codigosap">CODIGO SAP</string>
+    <string name="codigossap">Codigos SAP</string>
+
+    //Futuras Publicaciones
+    <string name="futuraspubliccaciones">FUTURAS PUBLICACIONES</string>
+    <string name="capacitacionaoperadores">Capacitación a Operadores</string>
+    <string name="capacitacionhidraulico">Capacitación Hidraulico</string>
+    <string name="capacitacionelectrico">Capacitación Electrico</string>
+    <string name="nota">Esto es diferente de FMI 10. FMI 02 se utiliza para las situaciones donde no está físicamente posible el índice de cambio. FMI 10 se utiliza para las situaciones donde está físicamente posible el índice de cambio, solamente el exterior los límites predefinidos de un sistema correctamente de funcionamiento. \n \n El período es el tiempo en los segundos para un ciclo en una frecuencia específica. \n \n En el pasado, FMI 12 también había sido utilizado para describir las condiciones siguientes: Un control electrónico envía una señal a otro módulo electrónico sobre una transmisión de datos. / El control electrónico cuenta con una respuesta pero el control electrónico no recibe ninguna respuesta o una respuesta incorrecta.  Un control electrónico espera recibir la información sobre una base continua de otro módulo electrónico sobre una transmisión de datos, pero se recibe no toda la información prevista.</string>
+
+
+    <string-array name="motores_array">
+        <item>MOTOR DEUTZ</item>
+        <item>MOTOR PERKINS</item>
+        <item>MOTOR CAT</item>
+    </string-array>
+
+    <string-array name="opcionesdemotor_deutz_array">
+        <item> DESTELLO</item>
+        <item> NUMERO DE FALLAS </item>
+        <item> SPN</item>
+        <item> FMI</item>
+    </string-array>
+
+    <string-array name="opcionesdemotor_perkins_array">
+        <item> DESTELLO</item>
+        <item> NUMERO DE FALLAS</item>
+        <item> J1939</item>
+        <item> FMI</item>
+    </string-array>
+
+    <string-array name="opcionesdemotor_cats_array">
+        <item> NUMERO DE FALLAS</item>
+        <item> FMI</item>
+        <item> CID</item>
+    </string-array>
+
+    <string-array name="opcione1pin">
+
+        <item> TCD2013</item>
+        <item> 1106D</item>
+        <item> C6.6</item>
+    </string-array>
+
+    <string-array name="opcione2pin">
+        <item>DETALLE DE PIN</item>
+        <item> DIAGRAMA DE INSTALACION</item>
+    </string-array>
+
+
+</resources>

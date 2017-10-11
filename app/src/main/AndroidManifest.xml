@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jose.sisrob">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Principal"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activitys.Electrico.Codigo_De_Fallas.Consulta" />
+        <activity android:name=".Activitys.Electrico.Codigo_De_Fallas.Resultados" />
+        <activity android:name=".Activitys.Electrico.Pin.PinResultados" />
+        <activity android:name=".Activitys.Planos_Electricos.Resltados_Planos_Electricos" />
+        <activity android:name=".Activitys.Ubicacion_de_Sensores.Resultados_Ubicacion_de_Sensores" />
+        <activity android:name=".Activitys.Bombas_HIdraulicas.Resultados_Bombas_Hidraulicas"></activity>
+    </application>
+
+</manifest>

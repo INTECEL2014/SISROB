@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/motores">
+        <menu>
+            <item
+                android:id="@+id/nav_circuitos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/circuitos" />
+            <item
+                android:id="@+id/nav_datosdecomponentes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/datosdecomponentes" />
+            <item
+                android:id="@+id/nav_ubicaciondecomponentes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/ubicacionesdecomponentes" />
+            <item
+                android:id="@+id/nav_calibraciones"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/calibraciones" />
+        </menu>
+
+    </item>
+
+
+
+
+
+
+    <item android:title="@string/electrico">
+        <menu>
+            <item
+                android:id="@+id/nav_codigodefallas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/codigodefallas" />
+            <item
+                android:id="@+id/nav_posiblesfallas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/posiblesfallas" />
+            <item
+                android:id="@+id/nav_pin"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/pinecuecm" />
+            <item
+                android:id="@+id/nav_planoselectricos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/planoselectricos" />
+            <item
+                android:id="@+id/nav_ubicaciondesensores"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/ubicaciondesensores" />
+        </menu>
+    </item>
+
+
+
+
+
+    <item android:title="@string/hidraulico">
+        <menu>
+
+            <item
+                android:id="@+id/nav_bombashidraulicas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/bombashidraulicas" />
+            <item
+                android:id="@+id/nav_dimencionesdemangueras"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/dimencionesdemangueras" />
+            <item
+                android:id="@+id/nav_planoshidraulicos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/planoshidraulicos" />
+            <item
+                android:id="@+id/nav_presionesdetrabajo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/precionesdetrabajo" />
+            <item
+                android:id="@+id/nav_ubicaciondecomponentes2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/ubicacionesdecomponentes" />
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="@string/control">
+        <menu>
+            <item
+                android:id="@+id/nav_calibraciondeaditivo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/calibraciondeaditivo" />
+            <item
+                android:id="@+id/nav_descripciondeequipo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/descripciondeequipo" />
+            <item
+                android:id="@+id/nav_diagramadeconexiones"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/diagramadeconexiones" />
+            <item
+                android:id="@+id/nav_programaciondecontrol"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/programaciondecontrol" />
+            <item
+                android:id="@+id/nav_toleranciadevoltajes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/toleranciadevoltajes" />
+            <item
+                android:id="@+id/nav_operacionconarduino"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/operacionconarduino" />
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="@string/manuales">
+        <menu>
+            <item
+                android:id="@+id/nav_mantenimiento"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/mantenimiento" />
+            <item
+                android:id="@+id/nav_motores"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/motoresmanuales" />
+            <item
+                android:id="@+id/nav_operaciones"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/operaciones" />
+        </menu>
+    </item>
+
+
+
+
+
+    <item android:title="@string/diccionario">
+        <menu>
+            <item
+                android:id="@+id/nav_inglestecnico"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/inglestecnico" />
+            <item
+                android:id="@+id/nav_componentes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/componentes" />
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="@string/codigosap">
+        <menu>
+            <item
+                android:id="@+id/nav_codigossap"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/codigossap" />
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="@string/futuraspubliccaciones">
+        <menu>
+            <item
+                android:id="@+id/nav_capacitacionoperadores"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/capacitacionaoperadores" />
+            <item
+                android:id="@+id/nav_capasitacionhidraulico"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/capacitacionhidraulico" />
+            <item
+                android:id="@+id/nav_capasitacionelectrico"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/capacitacionelectrico" />
+        </menu>
+    </item>
+
+
+
+</menu>
