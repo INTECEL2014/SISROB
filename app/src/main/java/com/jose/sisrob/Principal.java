@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.jose.sisrob.Base_De_Datos.Conexion;
 import com.jose.sisrob.Fragmentos.Bombas_Hidraulicas;
 import com.jose.sisrob.Fragmentos.Codigo_De_Fallas;
+import com.jose.sisrob.Fragmentos.Dimenciones_De_Mangueras;
 import com.jose.sisrob.Fragmentos.PlanosElectricos;
 import com.jose.sisrob.Fragmentos.Ubicacion_de_Sensores;
 import com.jose.sisrob.Fragmentos.pin;
@@ -128,6 +129,9 @@ public class Principal extends AppCompatActivity implements NavigationView.OnNav
         // Hidraulico
         else if (id== R.id.nav_bombashidraulicas){
             fragment = new Bombas_Hidraulicas();
+            FragmentoSeleccionado=true;
+        }else if (id==R.id.nav_dimencionesdemangueras){
+            fragment = new Dimenciones_De_Mangueras();
             FragmentoSeleccionado=true;
         }
         if (FragmentoSeleccionado){

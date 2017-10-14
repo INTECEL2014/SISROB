@@ -5,7 +5,7 @@ android {
     buildToolsVersion "26.0.1"
     defaultConfig {
         applicationId "com.jose.sisrob"
-        minSdkVersion 17
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -18,7 +18,9 @@ android {
         }
     }
     sourceSets {
-        main { assets.srcDirs = ['src/main/assets', 'src/main/assets/planos_electricos'] }
+        main {
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/planos_electricos', 'src/main/assets/bombashidraulicas']
+        }
     }
 }
 
