@@ -21,6 +21,7 @@ import com.jose.sisrob.Fragmentos.Bombas_Hidraulicas;
 import com.jose.sisrob.Fragmentos.Codigo_De_Fallas;
 import com.jose.sisrob.Fragmentos.Dimenciones_De_Mangueras;
 import com.jose.sisrob.Fragmentos.PlanosElectricos;
+import com.jose.sisrob.Fragmentos.Preciones_De_Trabajo;
 import com.jose.sisrob.Fragmentos.Ubicacion_de_Sensores;
 import com.jose.sisrob.Fragmentos.pin;
 
@@ -132,6 +133,9 @@ public class Principal extends AppCompatActivity implements NavigationView.OnNav
             FragmentoSeleccionado=true;
         }else if (id==R.id.nav_dimencionesdemangueras){
             fragment = new Dimenciones_De_Mangueras();
+            FragmentoSeleccionado=true;
+        }else if (id==R.id.nav_presionesdetrabajo){
+            fragment = new Preciones_De_Trabajo();
             FragmentoSeleccionado=true;
         }
         if (FragmentoSeleccionado){

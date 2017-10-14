@@ -25,7 +25,8 @@
         <activity android:name=".Activitys.Planos_Electricos.Resltados_Planos_Electricos" />
         <activity android:name=".Activitys.Ubicacion_de_Sensores.Resultados_Ubicacion_de_Sensores" />
         <activity android:name=".Activitys.Bombas_HIdraulicas.Resultados_Bombas_Hidraulicas" />
-        <activity android:name=".Activitys.Dimenciones_De_Mangueras.Resultado_Dimenciones_De_Mangueras"></activity>
+        <activity android:name=".Activitys.Dimenciones_De_Mangueras.Resultado_Dimenciones_De_Mangueras" />
+        <activity android:name=".Activitys.Preciones_De_Trabajo.Resultado_Preciones_De_Trabajo"></activity>
     </application>
 
 </manifest>
